@@ -7,3 +7,6 @@ Gmail>Settings>Show All Settings>Enable Shortcuts.
 This will enable keys such as "c" to compose an email.
 
 My web browser is chrome so to acces it i used chrome_path='C:/Program Files (x86)/Google/Chrome/Application/chrome.exe %s' , if you want to use another browser,insert the path to you desired browser application instead, or use  webbrowser.open("url") to use the default one.
+
+
+Of course this program can be made to continuously send emails via a While True loop, however i strongly advice to do so using asynchronous programming via a   @tasks.loop(secods=x)
